@@ -1,17 +1,26 @@
 {
     "name": "romuloar/rom.domain",
-    "description": "🧠 RomBaseDomain – Your Validatable Domain Base Class (PHP version)",
+    "description": "🧠 RomBaseDomain – Your Validatable Domain Base Class for PHP. Automatic and custom validation for domain models, with Symfony Validator integration.",
     "type": "library",
     "license": "MIT",
     "authors": [
-    {
-      "name": "Romulo Ribeiro"      
-    }
-  ],
+        {
+            "name": "Romulo Ribeiro",
+            "email": "romuloar@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/romuloar/rom.domain-php",
+    "keywords": [
+        "domain-driven-design",
+        "validation",
+        "symfony-validator",
+        "ddd",
+        "domain",
+        "php"
+    ],
     "autoload": {
         "psr-4": {
-            "RomDomain\\": "src/RomDomain/",
-            "RomDomain\\Test\\": "test/"
+            "RomDomain\\": "src/RomDomain/"
         }
     },
     "require": {
@@ -20,5 +29,9 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^10.0"
+    },
+    "support": {
+        "issues": "https://github.com/romuloar/rom.domain-php/issues",
+        "source": "https://github.com/romuloar/rom.domain-php"
     }
 }
