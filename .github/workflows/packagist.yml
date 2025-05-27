@@ -1,0 +1,17 @@
+name: Publish to Packagist
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Trigger Packagist update
+        run: |
+          curl -XPOST -H 'content-type:application/json' \
+            https://packagist.org/api/update-package?username=${{ secrets.PACKAGIST_USERNAME }}\&apiToken=${{ secrets.PACKAGIST_TOKEN }} \
+            -d '{"repository":"https://github.com/romuloar/rom.domain-php"}'
