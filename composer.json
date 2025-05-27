@@ -1,5 +1,5 @@
 {
-    "name": "romuloar/rom.domain-php",
+    "name": "romuloar/rom.domain",
     "description": "🧠 RomBaseDomain – Your Validatable Domain Base Class (PHP version)",
     "type": "library",
     "license": "MIT",
