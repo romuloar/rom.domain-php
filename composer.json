@@ -1,0 +1,24 @@
+{
+    "name": "romuloar/rom.domain-php",
+    "description": "🧠 RomBaseDomain – Your Validatable Domain Base Class (PHP version)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+    {
+      "name": "Romulo Ribeiro"      
+    }
+  ],
+    "autoload": {
+        "psr-4": {
+            "RomDomain\\": "src/RomDomain/",
+            "RomDomain\\Test\\": "test/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "symfony/validator": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    }
+}

@@ -1,0 +1,21 @@
+# Ignore Composer dependencies
+/vendor/
+
+# PHPUnit result cache
+.phpunit.result.cache
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore logs
+*.log
+
+# Ignore composer lock for libraries (optional, keep if you want reproducible installs)
+# composer.lock
